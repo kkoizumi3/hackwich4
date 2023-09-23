@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2CA1782ABE76DA00B0C97A /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2CA1772ABE76DA00B0C97A /* thirdViewController.swift */; };
+		3C2CA17A2ABE796400B0C97A /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2CA1792ABE796400B0C97A /* fourthViewController.swift */; };
 		3C7F70802ABA6226001B4A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F707F2ABA6226001B4A73 /* AppDelegate.swift */; };
 		3C7F70822ABA6226001B4A73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F70812ABA6226001B4A73 /* SceneDelegate.swift */; };
 		3C7F70842ABA6226001B4A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7F70832ABA6226001B4A73 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C2CA1772ABE76DA00B0C97A /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		3C2CA1792ABE796400B0C97A /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 		3C7F707C2ABA6226001B4A73 /* hackwich4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackwich4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7F707F2ABA6226001B4A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C7F70812ABA6226001B4A73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		3C7F70732ABA6226001B4A73 = {
 			isa = PBXGroup;
 			children = (
+				3C2CA1792ABE796400B0C97A /* fourthViewController.swift */,
+				3C2CA1772ABE76DA00B0C97A /* thirdViewController.swift */,
 				3C7F707E2ABA6226001B4A73 /* hackwich4 */,
 				3C7F70952ABA6227001B4A73 /* hackwich4Tests */,
 				3C7F709F2ABA6227001B4A73 /* hackwich4UITests */,
@@ -263,6 +269,8 @@
 			files = (
 				3C7F70B02ABA6569001B4A73 /* secondViewController.swift in Sources */,
 				3C7F70842ABA6226001B4A73 /* ViewController.swift in Sources */,
+				3C2CA17A2ABE796400B0C97A /* fourthViewController.swift in Sources */,
+				3C2CA1782ABE76DA00B0C97A /* thirdViewController.swift in Sources */,
 				3C7F70802ABA6226001B4A73 /* AppDelegate.swift in Sources */,
 				3C7F70822ABA6226001B4A73 /* SceneDelegate.swift in Sources */,
 			);

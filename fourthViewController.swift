@@ -1,24 +1,28 @@
 //
-//  secondViewController.swift
+//  fourthViewController.swift
 //  hackwich4
 //
-//  Created by Kaci Koizumi on 9/19/23.
+//  Created by Kaci Koizumi on 9/22/23.
 //
 
 import UIKit
 
-class secondViewController: UIViewController {
+class fourthViewController: UIViewController {
 
-    @IBOutlet weak var myClassLabel: UILabel!
+    @IBOutlet weak var favFoodsLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.myClassLabel.text = "My Classes"
+        self.favFoodsLabel.text = "My Favorite Foods"
     }
     
-
+    @IBAction func pressButton(_ sender: Any)
+    {
+        self.favFoodsLabel.text = "Ramen, Beef Stew, and Sushi"
+    }
+    
     /*
     // MARK: - Navigation
 

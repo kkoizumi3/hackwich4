@@ -1,21 +1,21 @@
 //
-//  secondViewController.swift
+//  thirdViewController.swift
 //  hackwich4
 //
-//  Created by Kaci Koizumi on 9/19/23.
+//  Created by Kaci Koizumi on 9/22/23.
 //
 
 import UIKit
 
-class secondViewController: UIViewController {
+class thirdViewController: UIViewController {
 
-    @IBOutlet weak var myClassLabel: UILabel!
+    @IBOutlet weak var toDoLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-        self.myClassLabel.text = "My Classes"
+        self.toDoLabel.text = "My To Do List"
     }
     
 

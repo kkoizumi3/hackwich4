@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
-        self.firstLabel.text = "about"
+        self.firstLabel.text = "About Me"
     }
     
 
